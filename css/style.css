@@ -4,6 +4,9 @@
 	box-sizing:border-box;
 }
 
+input {
+	border:0;
+}
 
 
 @font-face{
@@ -255,7 +258,6 @@ h1, h2, h3, h4 {
 	position:relative;
 	width:1200px;
 	margin-bottom:30px;
-	clear:both;
 }
 
 .criteria-items {
@@ -277,4 +279,39 @@ h1, h2, h3, h4 {
 	font-size:17px;
 	font-weight:bold;
 	padding:8px 15px 0;
+}
+
+.access-container {
+	width:1200px;
+	position:relative;
+}
+
+.form-arrive-box {
+	position:relative;
+	width:900px;
+	height:200px;
+}
+
+.label-long {
+	width:100%;
+	height:50px;
+	font-size:18px;
+}
+
+.input-text-long {
+	background:#ddd;
+	color:#000;
+	font-size:20px;
+	font-family:Lovelo;
+	width:100%;
+	height:50px;
+}
+
+.input-submit {
+	float:right;
+	width:130px;
+	height:50px;
+	background:#000;
+	color:#fff;
+	font-family:Lovelo;
 }
