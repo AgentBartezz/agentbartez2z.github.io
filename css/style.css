@@ -318,3 +318,9 @@ h1, h2, h3, h4 {
 	font-size:16px;
 	font-family:Lovelo;
 }
+
+.map-box {
+	position:relative;
+	width:1200px;
+	height:500px;
+}
