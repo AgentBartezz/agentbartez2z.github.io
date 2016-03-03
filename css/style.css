@@ -1,0 +1,280 @@
+* {
+	margin:0 auto;
+	padding:0;
+	box-sizing:border-box;
+}
+
+
+
+@font-face{
+	font-family:"Lovelo";
+	src:url(../fonts/Lovelo-Black.otf);
+}
+@font-face{
+	font-family:"Play";
+	src:url(../fonts/Play-Regular.ttf);
+}
+@font-face{
+	font-family:"Oxygen";
+	src:url(../fonts/Oxygen-Regular.ttf);
+}
+
+header, main, footer, aside, nav, section, article {
+	display:block;
+}
+
+body {
+	background:#fafafa;
+	font-family:"Oxygen";
+}
+
+h1, h2, h3, h4 {
+	font-family:Lovelo;
+}
+
+.main-header {
+	width:100%;
+	height:160px;
+	position:relative;
+	background:#E71c15;
+}
+
+.main-header-inner {
+	width:1200px;
+	height:100px;
+	position:relative;
+}
+
+.main-header-logo {
+	height:100px;
+	display:block;
+	position:relative;
+	width:300px;
+	float:left;
+	margin:0;
+}
+
+.main-header-logo-image {
+	position:relative;
+	width:300px;
+}
+
+.main-header-part-right {
+	width:900px;
+	height:100px;
+	position:relative;
+	float:right;
+}
+
+.smth {
+	width:900px;
+	height:100px;
+}
+
+.main-menu-container {
+	height:60px;
+	width:100%;
+	clear:both;
+	background:#000;
+}
+
+.main-menu {
+	width:1200px;
+	height:60px;
+	position:relative;
+}
+
+.main-menu-item {
+	float:left;
+	width:200px;
+	height:60px;
+	list-style-type:none;
+	position:relative;
+	overflow:hidden;
+}
+
+.main-menu-item-search {
+	float:right;
+	width:300px;
+	height:60px;
+	list-style-type:none;
+	position:relative;
+	overflow:hidden;
+}
+
+.search-input {
+	padding:18px 9px;
+	height:60px;
+	color:#eaeaea;
+	text-decoration:none;
+	display:block;
+	width:100%;
+	font-family:Oxygen;
+	font-size:20px;
+	position:relative;
+	z-index:3;
+	background:#2f2f2f;
+	border:0;
+	font-weight:bold;
+}
+
+.main-menu-item:hover {
+	background:#1f1f1f;
+}
+
+.main-menu-link,
+.main-menu-link-active {
+	padding-top:18px;
+	height:60px;
+	color:#fff;
+	text-decoration:none;
+	display:block;
+	width:100%;
+	text-align:center;
+	font-family:Lovelo;
+	font-size:20px;
+	position:relative;
+	z-index:3;
+}
+
+.main-menu-link-active {
+	background:#fafafa;
+	color:#1f1f1f;
+	border-top:5px solid #0f0f0f;
+	box-shadow:0 0 5px #fff;
+}
+
+.main-menu-item:before {
+	position:absolute;
+	content:'';
+	top:0;
+	left:-200px;
+	width:200px;
+	height:60px;
+	z-index:1;
+	transition:all .7s;
+	background:url(../images/glow.png);
+}
+
+.main-menu-item:hover:before {
+	left:100%;
+}
+
+.section-header {
+	width:100%;
+	height:50px;
+	background:#0f0f0f;
+}
+
+.section-header-title {
+	font-family:Lovelo;
+	font-size:25px;
+	color:#fff;
+	padding:10px 15px 0;
+}
+
+#wrapper {
+	position:relative;
+	width:100%;
+	margin-top:30px;
+}
+
+#new-products {
+	margin-bottom:30px;
+	width:1200px;
+}
+
+.products-list-wrapper {
+	width:1200px;
+	height:300px;
+	position:relative;
+}
+
+.products-list-wrapper-column {
+	width:350px;
+	height:300px;
+	float:left;
+	position:relative;
+}
+
+.column-md {
+	margin:0 1px 0 1px;
+}
+
+.column-last {
+	width:498px;
+}
+
+.product-wrapper-big {
+	height:300px;
+	width:350px;
+	margin-top:1px;
+	position:relative;
+	background:#eaeaea;
+}
+
+.product-wrapper-small {
+	height:149px;
+	margin-top:1px;
+	width:248px;
+	margin-left:1px;
+	position:relative;
+	float:left;
+	background:#eaeaea;
+}
+
+#main-footer {
+	background:#000;
+	position:relative;
+	margin-top:50px;
+	width:100%;
+	clear:both;
+	height:100px;
+}
+
+.criteria-chooser {
+	float:left;
+	width:300px;
+	position:relative;
+}
+
+.search-results {
+	float:right;
+	width:850px;
+	position:relative;
+}
+
+.search-results-header,
+.criteria-chooser-header {
+	height:50px;
+	background:#0f0f0f;
+	position:relative;
+}
+
+.products-container {
+	position:relative;
+	width:1200px;
+	margin-bottom:30px;
+	clear:both;
+}
+
+.criteria-items {
+	background:#ddd;
+	width:100%;
+	height:300px;
+}
+
+.criteria-name {
+	background:#000;
+	margin-top:5px;
+	height:40px;
+	width:100%;
+}
+
+.criteria-name-inner {
+	color:#fff;
+	text-transform:uppercase;
+	font-size:17px;
+	font-weight:bold;
+	padding:8px 15px 0;
+}
