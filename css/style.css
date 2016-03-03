@@ -8,7 +8,6 @@ input {
 	border:0;
 }
 
-
 @font-face{
 	font-family:"Lovelo";
 	src:url(../fonts/Lovelo-Black.otf);
@@ -316,5 +315,6 @@ h1, h2, h3, h4 {
 	background:#000;
 	color:#fff;
 	margin-top:20px;
+	font-size:16px;
 	font-family:Lovelo;
 }
