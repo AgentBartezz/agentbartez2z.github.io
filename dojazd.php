@@ -29,45 +29,14 @@
 			</div>
 		</header>
 		<main id="wrapper">
-			<div class="products-container">
-				<aside class="criteria-chooser">
-					<header class="criteria-chooser-header">
-						<h2 class="section-header-title">
-							Filtry
-						</h2>
-					</header>
-					<div class="criteria-name">
-						<div class="criteria-name-inner">Producent</div>
-					</div>
-					<div class="criteria-items">
-						<div class="criteria-item"></div>
-						<div class="criteria-item"></div>
-						<div class="criteria-item"></div>
-					</div>
-					<div class="criteria-name">
-						<div class="criteria-name-inner">Cena</div>
-					</div>
-					<div class="criteria-items">
-						<div class="criteria-item"></div>
-						<div class="criteria-item"></div>
-						<div class="criteria-item"></div>
-					</div>
-					<div class="criteria-name">
-						<div class="criteria-name-inner">Producent</div>
-					</div>
-					<div class="criteria-items">
-						<div class="criteria-item"></div>
-						<div class="criteria-item"></div>
-						<div class="criteria-item"></div>
-					</div>
-				</aside>
-				<section class="search-results">
-					<header class="search-results-header">
-						<h2 class="section-header-title">
-							Produkty
-						</h2>
-					</header>
-				</section>
+			<div class="access-container">
+				<div class="form-arrive-box">
+					<form name="road_to_target" method="POST" action="functions/road_to_target.php">
+						<label class="label-long">Wpisz adres startowy</label>
+						<input type="text" class="input-text-long" name="start_adrress"/>
+						<input type="submit" value="POKAŻ TRASĘ" class="input-submit" />
+					</form>
+				</div>
 			</div>
 		</main>
 		<footer id="main-footer">
