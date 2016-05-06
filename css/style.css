@@ -38,7 +38,7 @@ h1, h2, h3, h4 {
 	width:100%;
 	height:160px;
 	position:relative;
-	background:#E71c15;
+	background:#fff;/*#E71c15*/
 }
 
 .main-header-inner {
